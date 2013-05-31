@@ -10,7 +10,7 @@ body {
   font-family: Arial, Helvetica, sans-serif;
   font-size: 13px;
   background-color: white;
-  color: #f88866; }
+  color: black; }
 
 /* type */
 a, a:hover {
@@ -20,3 +20,6 @@ a, a:hover {
 #wrapper {
   margin: 0 auto;
   width: 900px; }
+
+#content {
+  margin: 3px; }
