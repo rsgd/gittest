@@ -1,31 +1,22 @@
-/* common styles 2 */
-
-html, a, div { outline: none; }
+/* ==========================================================================
+   Vars
+   ========================================================================== */
+/* common styles sass */
+html, a, li, div {
+  outline: none; }
 
 /*  main  */
 body {
-	font-family: Arial, Helvetica, sans-serif;
-	font-size: 13px;
-	background-color: #000;
-	color: #fff;}
-
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 13px;
+  background-color: white;
+  color: #333333; }
 
 /* type */
-
-a, a:hover { text-decoration: none; }
-
-p {}
-
-h1, h2, h3 {
-}
-
+a, a:hover {
+  text-decoration: none; }
 
 /* setup */
-
 #wrapper {
-	margin:0 auto;
-	width:900px;
-}
-
-#content {
-}
+  margin: 0 auto;
+  width: 900px; }
