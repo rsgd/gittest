@@ -3,7 +3,7 @@
    ========================================================================== */
 
 $bgColor: #fff;
-$txColor: #ccc;
+$txColor: #333;
 
 
 /* common styles sass */
@@ -24,7 +24,11 @@ body {
 
 a, a:hover { text-decoration: none; }
 
-p {}
+p {
+	max-width: 400px;
+	line-height: 1.5em;
+	
+}
 
 h1, h2, h3 {
 
@@ -39,5 +43,5 @@ h1, h2, h3 {
 }
 
 #content {
-	margin: 380px;
+	margin: 80px;
 }
